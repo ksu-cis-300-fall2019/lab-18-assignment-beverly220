@@ -37,14 +37,16 @@
             this.uxName = new System.Windows.Forms.TextBox();
             this.uxNameLabel = new System.Windows.Forms.Label();
             this.uxOpenDialog = new System.Windows.Forms.OpenFileDialog();
+            this.uxRemove = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // uxOpen
             // 
             this.uxOpen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxOpen.Location = new System.Drawing.Point(26, 24);
+            this.uxOpen.Location = new System.Drawing.Point(35, 30);
+            this.uxOpen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxOpen.Name = "uxOpen";
-            this.uxOpen.Size = new System.Drawing.Size(310, 41);
+            this.uxOpen.Size = new System.Drawing.Size(413, 50);
             this.uxOpen.TabIndex = 47;
             this.uxOpen.Text = "Open Data File";
             this.uxOpen.UseVisualStyleBackColor = true;
@@ -53,10 +55,11 @@
             // uxRank
             // 
             this.uxRank.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxRank.Location = new System.Drawing.Point(86, 188);
+            this.uxRank.Location = new System.Drawing.Point(115, 231);
+            this.uxRank.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxRank.Name = "uxRank";
             this.uxRank.ReadOnly = true;
-            this.uxRank.Size = new System.Drawing.Size(250, 29);
+            this.uxRank.Size = new System.Drawing.Size(332, 34);
             this.uxRank.TabIndex = 46;
             this.uxRank.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -64,19 +67,21 @@
             // 
             this.uxRankLabel.AutoSize = true;
             this.uxRankLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxRankLabel.Location = new System.Drawing.Point(22, 191);
+            this.uxRankLabel.Location = new System.Drawing.Point(29, 235);
+            this.uxRankLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.uxRankLabel.Name = "uxRankLabel";
-            this.uxRankLabel.Size = new System.Drawing.Size(58, 24);
+            this.uxRankLabel.Size = new System.Drawing.Size(74, 29);
             this.uxRankLabel.TabIndex = 45;
             this.uxRankLabel.Text = "Rank:";
             // 
             // uxFrequency
             // 
             this.uxFrequency.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxFrequency.Location = new System.Drawing.Point(135, 153);
+            this.uxFrequency.Location = new System.Drawing.Point(180, 188);
+            this.uxFrequency.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxFrequency.Name = "uxFrequency";
             this.uxFrequency.ReadOnly = true;
-            this.uxFrequency.Size = new System.Drawing.Size(201, 29);
+            this.uxFrequency.Size = new System.Drawing.Size(267, 34);
             this.uxFrequency.TabIndex = 44;
             this.uxFrequency.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -84,18 +89,20 @@
             // 
             this.uxFrequencyLabel.AutoSize = true;
             this.uxFrequencyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxFrequencyLabel.Location = new System.Drawing.Point(22, 156);
+            this.uxFrequencyLabel.Location = new System.Drawing.Point(29, 192);
+            this.uxFrequencyLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.uxFrequencyLabel.Name = "uxFrequencyLabel";
-            this.uxFrequencyLabel.Size = new System.Drawing.Size(107, 24);
+            this.uxFrequencyLabel.Size = new System.Drawing.Size(133, 29);
             this.uxFrequencyLabel.TabIndex = 43;
             this.uxFrequencyLabel.Text = "Frequency:";
             // 
             // uxLookup
             // 
             this.uxLookup.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxLookup.Location = new System.Drawing.Point(26, 106);
+            this.uxLookup.Location = new System.Drawing.Point(35, 130);
+            this.uxLookup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxLookup.Name = "uxLookup";
-            this.uxLookup.Size = new System.Drawing.Size(310, 41);
+            this.uxLookup.Size = new System.Drawing.Size(191, 50);
             this.uxLookup.TabIndex = 42;
             this.uxLookup.Text = "Get Statistics";
             this.uxLookup.UseVisualStyleBackColor = true;
@@ -104,26 +111,41 @@
             // uxName
             // 
             this.uxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxName.Location = new System.Drawing.Point(94, 71);
+            this.uxName.Location = new System.Drawing.Point(125, 87);
+            this.uxName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.uxName.Name = "uxName";
-            this.uxName.Size = new System.Drawing.Size(242, 29);
+            this.uxName.Size = new System.Drawing.Size(321, 34);
             this.uxName.TabIndex = 41;
             // 
             // uxNameLabel
             // 
             this.uxNameLabel.AutoSize = true;
             this.uxNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxNameLabel.Location = new System.Drawing.Point(22, 74);
+            this.uxNameLabel.Location = new System.Drawing.Point(29, 91);
+            this.uxNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.uxNameLabel.Name = "uxNameLabel";
-            this.uxNameLabel.Size = new System.Drawing.Size(66, 24);
+            this.uxNameLabel.Size = new System.Drawing.Size(84, 29);
             this.uxNameLabel.TabIndex = 40;
             this.uxNameLabel.Text = "Name:";
             // 
+            // uxRemove
+            // 
+            this.uxRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxRemove.Location = new System.Drawing.Point(255, 129);
+            this.uxRemove.Margin = new System.Windows.Forms.Padding(4);
+            this.uxRemove.Name = "uxRemove";
+            this.uxRemove.Size = new System.Drawing.Size(191, 50);
+            this.uxRemove.TabIndex = 48;
+            this.uxRemove.Text = "Remove";
+            this.uxRemove.UseVisualStyleBackColor = true;
+            this.uxRemove.Click += new System.EventHandler(this.UxRemove_Click);
+            // 
             // UserInterface
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(358, 241);
+            this.ClientSize = new System.Drawing.Size(477, 297);
+            this.Controls.Add(this.uxRemove);
             this.Controls.Add(this.uxOpen);
             this.Controls.Add(this.uxRank);
             this.Controls.Add(this.uxRankLabel);
@@ -132,6 +154,7 @@
             this.Controls.Add(this.uxLookup);
             this.Controls.Add(this.uxName);
             this.Controls.Add(this.uxNameLabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UserInterface";
             this.Text = "Name Lookup";
             this.ResumeLayout(false);
@@ -150,6 +173,7 @@
         private System.Windows.Forms.TextBox uxName;
         private System.Windows.Forms.Label uxNameLabel;
         private System.Windows.Forms.OpenFileDialog uxOpenDialog;
+        private System.Windows.Forms.Button uxRemove;
     }
 }
 
